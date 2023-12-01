@@ -7,7 +7,7 @@ using Valve.VR;
 namespace SteamVRRecorder.Record
 {
     public class MovementRecorder : Recorder {
-
+        
         [SerializeField] private string _filename = "data";
 
         private Camera _hmd=null;
