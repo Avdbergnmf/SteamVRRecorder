@@ -5,7 +5,9 @@ Directly record SteamVR data from Unity using separate thread.
 Much of this was taken directly from [Nicolas Wenk](https://github.com/nicolaswenk).
 
 ## How to use
-Import all scripts to the unity projects. SteamVR should also be imported.
+Import all scripts to the unity projects. [SteamVR](https://assetstore.unity.com/packages/tools/integration/steamvr-plugin-32647) should also be imported.
+
+Also includes `UXFSteamVRTracker`, which is written to use with [UXF](https://github.com/immersivecognition/unity-experiment-framework). If you're not using UXF, don't import this script or it will throw compile errors.
 
 ### Trackerconfigurationloader  
 Create `Assets/StreamingAssets/tracker_config.txt`, and add `trackername;tracker-ID` per line, example:
